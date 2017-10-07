@@ -1,0 +1,6 @@
+message: Hello Spring Boot from application.yml
+message2: message 2 application.yml
+---
+spring:
+  profiles: production
+message: "Hello from production .yml"
